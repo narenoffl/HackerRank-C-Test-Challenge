@@ -30,3 +30,14 @@ void Count(char a[],char b,int ct)
         printf("character \'%c\' not presented in a given string",b);
     }
 }
+
+
+int main() {
+    char a[100];
+    char bas;
+    scanf("%s %c",a,&bas);
+    int ct = strlen(a);
+    Count(a,bas,ct);
+    
+    return 0;
+}    
